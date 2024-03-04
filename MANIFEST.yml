@@ -1,0 +1,102 @@
+author: Dr A. Lecturer
+build_pdf: true
+build_zip: true
+format_version: 2
+license: null
+locale: en
+mathjax_url: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+num_pdf_runs: 1
+root_url: /{base}/
+structure:
+- build_pdf: false
+  content: []
+  formats:
+  - filetype: html
+    format: default
+    url: index.html
+  is_hidden: false
+  slug: introduction
+  source: .
+  title: Introduction
+  type: introduction
+  url: index.html
+- build_pdf: false
+  content:
+  - build_pdf: true
+    formats:
+    - filetype: html
+      format: default
+      url: lecture_notes/0001.html
+    - filetype: pdf
+      format: default
+      url: lecture_notes/pdf/notes.pdf
+    is_hidden: false
+    pdf_url: lecture_notes/pdf/notes.pdf
+    slug: 1_preface
+    source: 0001.html
+    title: 1 Preface
+    type: extractedsection
+    url: lecture_notes/0001.html
+  - build_pdf: true
+    formats:
+    - filetype: html
+      format: default
+      url: lecture_notes/0002.html
+    - filetype: pdf
+      format: default
+      url: lecture_notes/pdf/notes.pdf
+    is_hidden: false
+    pdf_url: lecture_notes/pdf/notes.pdf
+    slug: 2_determinants
+    source: 0002.html
+    title: 2 Determinants
+    type: extractedsection
+    url: lecture_notes/0002.html
+  - build_pdf: true
+    formats:
+    - filetype: html
+      format: default
+      url: lecture_notes/0003.html
+    - filetype: pdf
+      format: default
+      url: lecture_notes/pdf/notes.pdf
+    is_hidden: false
+    pdf_url: lecture_notes/pdf/notes.pdf
+    slug: 3_variance
+    source: 0003.html
+    title: 3 Variance
+    type: extractedsection
+    url: lecture_notes/0003.html
+  - build_pdf: true
+    formats:
+    - filetype: html
+      format: default
+      url: lecture_notes/0004.html
+    - filetype: pdf
+      format: default
+      url: lecture_notes/pdf/notes.pdf
+    is_hidden: false
+    pdf_url: lecture_notes/pdf/notes.pdf
+    slug: 4_bibliography
+    source: 0004.html
+    title: 4 Bibliography
+    type: extractedsection
+    url: lecture_notes/0004.html
+  formats:
+  - filetype: html
+    format: default
+    url: lecture_notes/index.html
+  is_hidden: false
+  slug: lecture_notes
+  source: notes.tex
+  splitlevel: 0
+  title: Lecture Notes
+  type: document
+  url: lecture_notes/index.html
+themes:
+- path: .
+  source: default
+  title: Default
+title: Example course
+year: 2024
+zipfile: example_course.zip
